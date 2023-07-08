@@ -2,6 +2,7 @@
 
 * {
   font-family: 'Poppins', sans-serif;
+
 }
 
 .home-container {
@@ -73,15 +74,16 @@ a {
 
 .link-home {
     align-self: flex-start;
-    padding: 0 18px;
+    padding: 0 88px;
     font-size: xx-large;
+
 }
 
 .button-container {
     align-self: flex-end;
     padding-right: 100px;
-    position: relative;
-    bottom: 120px;
+    
+    
 }
 
 .pp {
@@ -116,4 +118,17 @@ a {
     display: flex;
     gap: 8px;
     align-items: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+.restaurant-detail-info {
+  margin: 0;
+}
+
+
+.Reviews > h2{
+  margin-top: 0;
 }

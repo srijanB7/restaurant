@@ -54,8 +54,8 @@ export const RestaurantDetail = () => {
                 {"<-"}
             </Link>
             <h1>{currRestaurant.name}</h1>
-            <p>{currRestaurant.address}</p>
-            <p>Average Rating {currRestaurant.averageRating}</p>
+            <p className="restaurant-detail-info">{currRestaurant.address}</p>
+            <p className="restaurant-detail-info">Average Rating {currRestaurant.averageRating}</p>
             <div className="button-container">
                 <Button
                     className="review-btn"
