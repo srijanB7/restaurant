@@ -92,8 +92,10 @@ a {
 }
 
 .modal-header {
-    padding: 10px;
-    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 
 .modal-content {
@@ -131,4 +133,12 @@ h1 {
 
 .Reviews > h2{
   margin-top: 0;
+}
+
+.close-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  cursor: pointer;
 }

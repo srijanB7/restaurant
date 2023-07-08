@@ -74,6 +74,7 @@ export const RestaurantDetail = () => {
             >
                 <div style={style}>
                     <div className="modal-header">
+                        <button className="close-btn" onClick={handleClose} size="small">X</button>
                         <h1>Add your Review</h1>
                     </div>
                     <div className="modal-content">
