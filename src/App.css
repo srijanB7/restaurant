@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+
+.btn-container {
+    display: flex;
+    gap: 10px;
+}
+
+.restaurant-container {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.restaurant-menu {
+    display: flex;
+
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.item {
+    padding: 0 12px;
+    background-color: aliceblue;
+    border-radius: 12px;
+}
+
+.item-image {
+    width: 250px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+  height: fit-content
+}
+
+.item-details > p{
+  margin: 4px;
+}
+
+.secondary-details {
+  font-size: smaller;
+}
+
+.restaruant-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-btn {
+    width: fit-content;
+}
+
+.link-home {
+    align-self: flex-start;
+    padding: 0 18px;
+    font-size: xx-large;
+}
+
+.button-container {
+    align-self: flex-end;
+    padding-right: 100px;
+    position: relative;
+    bottom: 120px;
+}
+
+.pp {
+    border-radius: 50%;
+    height: 40px;
+}
+
+.modal-header {
+    padding: 10px;
+    text-align: center;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    gap: 10px;
+}
+
+.modal-content > input {
+    padding: 0.6rem;
+}
+
+.rev {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    border-bottom: 1px solid;
+}
+
+.rev-header {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
